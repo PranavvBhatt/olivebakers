@@ -1,7 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: 'export',
+  basePath: '/olivebakers',
+  assetPrefix: '/olivebakers',
+  images: {
+    unoptimized: true,
+  },
   reactCompiler: true,
 };
 
