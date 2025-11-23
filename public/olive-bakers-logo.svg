@@ -1,0 +1,18 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="badge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7dde9" />
+      <stop offset="100%" stop-color="#f1cfdc" />
+    </linearGradient>
+  </defs>
+  <circle cx="256" cy="256" r="240" fill="url(#badge)" stroke="#4d1a4f" stroke-width="18" />
+  <circle cx="256" cy="256" r="200" fill="#fff6fb" stroke="#4d1a4f" stroke-width="8" stroke-dasharray="8 18" />
+  <rect x="96" y="196" width="320" height="120" rx="20" fill="#f9e7ef" stroke="#4d1a4f" stroke-width="8" />
+  <text x="256" y="256" text-anchor="middle" font-size="70" font-family="Georgia, 'Times New Roman', serif" font-weight="600" fill="#4d1a4f" dominant-baseline="middle">
+    OLIVE BAKERS
+  </text>
+  <text x="256" y="308" text-anchor="middle" font-size="30" font-family="Helvetica, Arial, sans-serif" letter-spacing="0.2em" fill="#74426f">
+    HOME KITCHEN
+  </text>
+</svg>
+
