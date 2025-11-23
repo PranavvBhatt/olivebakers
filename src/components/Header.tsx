@@ -20,13 +20,13 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-white/40 bg-white/90 backdrop-blur-md shadow-sm">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <Link href="/" className="flex items-center gap-3">
+        <Link href="/" className="flex items-center gap-2">
           <Image
-            src="/olive-bakers-logo.svg"
-            width={48}
-            height={48}
-            alt="Olive Bakers logo"
-            className="h-12 w-12"
+            src="/olivebakers/olive-bakers-logo.svg"
+            width={40}
+            height={40}
+            alt="Olive Bakers"
+            className="h-10 w-10"
             priority
           />
           <span className="hidden text-xl font-bold text-[var(--brand-primary)] sm:block">
@@ -40,11 +40,10 @@ export default function Header() {
             <Link
               key={item.href}
               href={item.href}
-              className={`text-sm font-semibold uppercase tracking-wide transition ${
-                pathname === item.href
+              className={`text-sm font-semibold uppercase tracking-wide transition ${pathname === item.href
                   ? "text-[#5d2260] underline"
                   : "text-[var(--brand-primary)] hover:text-[#5d2260]"
-              }`}
+                }`}
             >
               {item.label}
             </Link>
@@ -84,11 +83,10 @@ export default function Header() {
                 key={item.href}
                 href={item.href}
                 onClick={() => setIsMenuOpen(false)}
-                className={`py-3 text-sm font-semibold uppercase tracking-wide transition ${
-                  pathname === item.href
+                className={`py-3 text-sm font-semibold uppercase tracking-wide transition ${pathname === item.href
                     ? "text-[#5d2260] underline"
                     : "text-[var(--brand-primary)] hover:text-[#5d2260]"
-                }`}
+                  }`}
               >
                 {item.label}
               </Link>
