@@ -20,7 +20,7 @@ export default function Home() {
                 <h1 className="text-4xl font-semibold leading-tight tracking-[-0.02em] text-[var(--brand-deep)] sm:text-5xl lg:text-6xl">
                   <span className="inline-flex items-center gap-4">
                     <Image
-                      src="/olive-bakers-logo.svg"
+                      src="/olivebakers/olive-bakers-logo.svg"
                       width={72}
                       height={72}
                       alt="Olive Bakers emblem"
@@ -326,7 +326,7 @@ export default function Home() {
             <div>
               <div className="flex items-center gap-3 mb-4">
                 <Image
-                  src="/olive-bakers-logo.svg"
+                  src="/olivebakers/olive-bakers-logo.svg"
                   width={40}
                   height={40}
                   alt="Olive Bakers logo"

@@ -118,22 +118,22 @@ export const specialityCakes = [
 export const homeProducts = [
   {
     title: "Chocolate Truffle Cake",
-    image: "/images/products/chocolate-truffle-cake.jpg",
+    image: "/olivebakers/images/products/chocolate-truffle-cake.jpg",
     price: "₹1,850 / kg",
   },
   {
     title: "Red Velvet Cake",
-    image: "/images/products/red-velvet-cake-update.jpg",
+    image: "/olivebakers/images/products/red-velvet-cake-update.jpg",
     price: "₹1,650 / kg",
   },
   {
     title: "Bento Box Cake",
-    image: "/images/products/bento-box-cake.jpg",
+    image: "/olivebakers/images/products/bento-box-cake.jpg",
     price: "₹450",
   },
   {
     title: "Black Forest Cake",
-    image: "/images/products/black-forest-cake.jpg",
+    image: "/olivebakers/images/products/black-forest-cake.jpg",
     price: "₹1,750 / kg",
   },
 ];
@@ -143,19 +143,19 @@ export const bestSellers = [
     title: "Chocolate Truffle Cake",
     description: "Our most loved cake with rich dark chocolate layers",
     price: "₹1,850 / kg",
-    image: "/images/products/chocolate-truffle-cake.jpg",
+    image: "/olivebakers/images/products/chocolate-truffle-cake.jpg",
   },
   {
     title: "Bento Box Cake",
     description: "Perfect mini cakes for small celebrations or personal treats",
     price: "₹450",
-    image: "/images/products/bento-box-cake.jpg",
+    image: "/olivebakers/images/products/bento-box-cake.jpg",
   },
   {
     title: "Red Velvet Cake",
     description: "Classic favorite with cream cheese frosting",
     price: "₹1,650 / kg",
-    image: "/images/products/red-velvet-cake-update.jpg",
+    image: "/olivebakers/images/products/red-velvet-cake-update.jpg",
   },
 ];
 
